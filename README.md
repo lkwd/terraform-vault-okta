@@ -6,7 +6,7 @@ Terraform configuration to configure Vault with Okta using the OIDC auth plugin
 
 ```
 module "okta" {
-  source  = "onetwopunch/okta/vault"
+  source  = "git@github.com:lkwd/terraform-vault-okta.git"
   version = "<version>"
 
   okta_discovery_url = "<Okta Authorization Server Issuer>"
